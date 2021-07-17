@@ -20,3 +20,33 @@ a{
 ul li{
     list-style-type: none;
 }
+
+/* Header=====>Navbar */
+
+
+.logo{
+    width: 125px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links{
+    display: flex;
+}
+
+.nav_links a{
+    padding: 18px 40px;
+    font-size: 15px;
+}
+.housing{
+    color: #0065fc;
+}
+.active:hover{
+    border-top: 3px solid #0065fc;
+}
