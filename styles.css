@@ -61,3 +61,14 @@ ul li{
     color: white;
     transition: 0.2s;
 }
+
+
+/* Header=====> Titles */
+
+.header_title{
+    margin:20px 0;
+    font-size: 22px;
+}
+.header_description{
+   font-weight: 300;
+}
