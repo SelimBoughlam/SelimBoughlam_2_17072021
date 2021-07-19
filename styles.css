@@ -3,72 +3,71 @@
 
 /* Defaults Settings */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body,html{
-    font-family: "raleway",sans-serif;
-    max-width: 90%;
-    margin: 0 auto;
+body,
+html {
+  font-family: "raleway", sans-serif;
+  max-width: 90%;
+  margin: 0 auto;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-ul li{
-    list-style-type: none;
+ul li {
+  list-style-type: none;
 }
 
 /* Header=====>Navbar */
 
-
-.logo{
-    width: 125px;
-    height: 45px;
-    margin-top: 10px;
+.logo {
+  width: 125px;
+  height: 45px;
+  margin-top: 10px;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav_links{
-    display: flex;
+.nav_links {
+  display: flex;
 }
 
-.nav_links a{
-    padding: 18px 40px;
-    font-size: 15px;
+.nav_links a {
+  padding: 18px 40px;
+  font-size: 15px;
 }
-.housing{
-    color: #0065fc;
+.housing {
+  color: #0065fc;
 }
-.active:hover{
-    border-top: 3px solid #0065fc;
+.active:hover {
+  border-top: 3px solid #0065fc;
 }
-.register{
-    color: #0065fc;
-    font-weight: bold;
+.register {
+  color: #0065fc;
+  font-weight: bold;
 }
 .register:hover {
-    padding: 18px 40px;
-    background-color: #0065fc;
-    border-radius: 35px;
-    color: white;
-    transition: 0.2s;
+  padding: 18px 40px;
+  background-color: #0065fc;
+  border-radius: 35px;
+  color: white;
+  transition: 0.2s;
 }
-
 
 /* Header=====> Titles */
 
-.header_title{
-    margin:20px 0;
-    font-size: 22px;
+.header_title {
+  margin: 20px 0;
+  font-size: 22px;
 }
-.header_description{
-   font-weight: 300;
+.header_description {
+  font-weight: 300;
 }
