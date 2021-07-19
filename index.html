@@ -1,89 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservia</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header class="header">
-        <!-- Header navbar -->
-        <nav class="navbar">
-            <a href="/index.html">
-                <img class="logo" src="/img/logo/Reservia@3x.png" alt="Logo du site reservia" />
-            </a>
-            <ul class="nav_links">
-                <li>
-                    <a class="active housing" href="#">Hébergements</a>
-                </li>
-                <li>
-                    <a class="active" href="#">Activités</a>
-                </li>
-                <li>
-                    <a class="register" href="#">S'inscrire</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- Header titles -->
-        <h1 class="header_title">
-            Trouvez votre hébergement pour des vacances de rêve
-        </h1>
-        <p class="header_description">
-            En plein centre ville ou en pleine nature
-        </p>
-        <!-- Header Searchbox -->
-        <div class="search_bar">
-            <div class="map_icon">
-                <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <input class="input_text" type="text" placeholder="Marseille, France">
-            <button class="search_btn">Rechercher</button>
+      <!-- Header navbar -->
+      <nav class="navbar">
+        <a href="/index.html">
+          <img
+            class="logo"
+            src="/img/logo/Reservia@3x.png"
+            alt="Logo du site reservia"
+          />
+        </a>
+        <ul class="nav_links">
+          <li>
+            <a class="active housing" href="#">Hébergements</a>
+          </li>
+          <li>
+            <a class="active" href="#">Activités</a>
+          </li>
+          <li>
+            <a class="register" href="#">S'inscrire</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Header titles -->
+      <h1 class="header_title">
+        Trouvez votre hébergement pour des vacances de rêve
+      </h1>
+      <p class="header_description">
+        En plein centre ville ou en pleine nature
+      </p>
+      <!-- Header Searchbox -->
+      <div class="search_bar">
+        <div class="map_icon">
+          <i class="fas fa-map-marker-alt"></i>
         </div>
-        <!-- Filtres -->
-        <div class="filters">
-            <h3 class="filters_maintitle">Filtres</h3>
-            <ul class="filters_list">
-                <a href="#">
-                    <li class="filters_icons">
-                        <i class="fas fa-money-bill-wave icons"></i>
-                        <h4 class="filters_titles">Economique</h4>
-                    </li>
-                </a>
-                <a href="#">
-                    <li class="filters_icons">
-                        <i class="fas fa-child icons"></i>
-                        <h4 class="filters_titles">Familial</h4>
-                    </li>
-                </a>
-                <a href="#">
-                    <li class="filters_icons">
-                        <i class="fas fa-heart icons"></i>
-                        <h4 class="filters_titles">Romantique</h4> 
-                    </li>
-                </a>
-                <a href="#">
-                    <li class="filters_icons">
-                        <i class="fas fa-dog icons"></i>
-                        <h4 class="filters_titles">Animaux autorisés</h4>
-                    </li>
-                </a>
-            </ul>
-        </div>
-        <!-- informations -->
-        <div class="infos">
-            <div class="infos_icon">
+        <input class="input_text" type="text" placeholder="Marseille, France" />
+        <button class="search_btn">Rechercher</button>
+      </div>
+      <!-- Filtres -->
+      <div class="filters">
+        <h3 class="filters_maintitle">Filtres</h3>
+        <ul class="filters_list">
+          <a href="#">
+            <li class="filters_icons">
+              <i class="fas fa-money-bill-wave icons"></i>
+              <h4 class="filters_titles">Economique</h4>
+            </li>
+          </a>
+          <a href="#">
+            <li class="filters_icons">
+              <i class="fas fa-child icons"></i>
+              <h4 class="filters_titles">Familial</h4>
+            </li>
+          </a>
+          <a href="#">
+            <li class="filters_icons">
+              <i class="fas fa-heart icons"></i>
+              <h4 class="filters_titles">Romantique</h4>
+            </li>
+          </a>
+          <a href="#">
+            <li class="filters_icons">
+              <i class="fas fa-dog icons"></i>
+              <h4 class="filters_titles">Animaux autorisés</h4>
+            </li>
+          </a>
+        </ul>
+      </div>
+      <!-- informations -->
+      <div class="infos">
+        <div class="infos_icon">
           <i class="fas fa-info"></i>
-            </div>
-            <p>Plus de 500 logmements sont disponibles dans cette ville</p>
         </div>
+        <p>Plus de 500 logemements sont disponibles dans cette ville</p>
+      </div>
     </header>
-</body>
+    <main>
+      <section class="Livings">
+        <div class="all_livings">
+          <div class="hotels">
+            <div class="hotel">
+              <img
+                class="hotel_image"
+                src="/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Photo auberge la cannebière"
+              />
+              <h5 class="hotel_title">Auberge la Cannebière</h5>
+              <p class="hotel_price">Nuit à partir de 25€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star inactive"></i>
+              </div>  
+              
+            </div>
 
+            <div class="hotel">
+              <img
+                class="hotel_image"
+                src="/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Photo auberge la cannebière"
+              />
+              <h5 class="hotel_title">Hôtel du port</h5>
+              <p class="hotel_price">Nuit à partir de 52€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>  
+            </div>
+
+            <div class="hotel">
+              <img
+                class="hotel_image"
+                src="/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Photo auberge la cannebière"
+              />
+              <h5 class="hotel_title">Hôtel les mouettes</h5>
+              <p class="hotel_price">Nuit à partir de 76€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star inactive"></i>
+              </div>  
+            </div>
+
+            <div class="hotel">
+              <img
+                class="hotel_image"
+                src="/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Photo auberge la cannebière"
+              />
+              <h5 class="hotel_title">Hôtel de la mer</h5>
+              <p class="hotel_price">Nuit à partir de 46€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star inactive"></i>
+                <i class="fas fa-star inactive"></i>
+              </div>  
+            </div>
+
+            <div class="hotel">
+              <img
+                class="hotel_image"
+                src="/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Photo auberge la cannebière"
+              />
+              <h5 class="_hotel_title">Auberge le Panier</h5>
+              <p class="hotel_price">Nuit à partir de 23€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star inactive"></i>
+              </div>  
+            </div>
+
+            <div class="hotel">
+              <img
+                class="hotel_image"
+                src="/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Photo auberge la cannebière"
+              />
+              <h5>Hôtel chez Amina</h5>
+              <p>Nuit à partir de 96€</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <div class="famous_livings"></div>
+      </section>
+    </main>
+  </body>
 </html>
