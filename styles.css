@@ -50,3 +50,14 @@ ul li{
 .active:hover{
     border-top: 3px solid #0065fc;
 }
+.register{
+    color: #0065fc;
+    font-weight: bold;
+}
+.register:hover {
+    padding: 18px 40px;
+    background-color: #0065fc;
+    border-radius: 35px;
+    color: white;
+    transition: 0.2s;
+}
