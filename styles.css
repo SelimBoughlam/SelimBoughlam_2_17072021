@@ -1,6 +1,3 @@
-/* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700&display=swap");
-
 /* Defaults Settings */
 
 * {
@@ -11,13 +8,14 @@
 body,
 html {
   font-family: "raleway", sans-serif;
+  font-size: 16px;
 }
 main {
-  margin: 0 auto;
+  margin:auto;
   width: 80%;
 }
 header {
-  margin: 0 auto;
+  margin: auto;
   width: 80%;
 }
 a {
@@ -42,7 +40,7 @@ ul li {
   align-items: center;
 }
 
-.nav_links {
+.nav_links { 
   display: flex;
 }
 
@@ -72,7 +70,7 @@ ul li {
 
 .header_title {
   margin: 20px 0;
-  font-size: 22px;
+  
 }
 .header_description {
   font-weight: 300;
@@ -96,7 +94,7 @@ ul li {
   color: black;
   width: 200px;
   border: 1px solid #f2f2f2;
-  font-size: 13px;
+  font-size: 1em;
 }
 .search_btn {
   background-color: #0065fc;
@@ -106,7 +104,7 @@ ul li {
   padding: 5px 8px;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.12em;
 }
 
 /* Filters */
@@ -126,7 +124,7 @@ ul li {
   margin-right: 20px;
 }
 .filters_icons:hover {
-  -webkit-box-shadow: 4px 1px 15px -4px #3193ff;
+  
   box-shadow: 4px 1px 15px -4px #3193ff;
   transition: 0.3s;
   cursor: pointer;
@@ -138,14 +136,14 @@ ul li {
   color: #0065fc;
 }
 .filters_maintitle {
-  font-size: 18px;
+  font-size: 1.12em;
   font-weight: 700;
   margin-right: 30px;
 }
 .filters_titles {
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 15px;
+  font-size: 1em;
 }
 
 /* information */
@@ -202,12 +200,12 @@ ul li {
   justify-content: space-evenly;
 }
 .section_title {
-  font-size: 22px;
+  font-size: 1.4em;
   padding-left: 17px;
   padding-top: 27px;
 }
 .section_footer {
-  font-size: 18px;
+  font-size: 1.12em;
   padding-left: 17px;
   padding-top: 27px;
 }
@@ -220,7 +218,7 @@ ul li {
 }
 
 .hotel_title {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: bold;
   padding: 5px;
 }
@@ -308,7 +306,7 @@ ul li {
   border-radius: 20px 20px 0 0;
 }
 .activities_text {
-  font-size: 18px;
+  font-size: 1.12em;
   font-weight: bold;
   padding: 14px;
 }
@@ -349,7 +347,7 @@ ul li {
   object-fit: cover;
 }
 .activities_text_small {
-  font-size: 18px;
+  font-size: 1.12em;
   font-weight: bold;
   padding: 12px;
 }
@@ -375,11 +373,24 @@ ul li {
 
 .footer_title {
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 1.4em;
 }
 .footer_list li {
   margin-bottom: 10px;
 }
 .footer_list a:hover {
   text-decoration: underline;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width:1500px){
+  .locals_hotels{
+    width: 100%;
+  }
+  .hotels{
+    display: inline-block;
+    
+  }
 }
