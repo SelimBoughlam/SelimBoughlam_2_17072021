@@ -197,9 +197,8 @@ ul li {
   margin-top: 30px;
   padding: 6px;
 }
-.hotels_name:hover{
+.hotels_name:hover {
   box-shadow: 4px 1px 15px -4px #48525c;
-
 }
 .hotel_img {
   width: 100%;
@@ -286,9 +285,8 @@ ul li {
   padding: 3px;
   border-radius: 15px 15px 15px 15px;
 }
-.popular:hover{
+.popular:hover {
   box-shadow: 4px 1px 15px -4px #48525c;
-
 }
 .popular_container {
   display: flex;
@@ -330,9 +328,8 @@ ul li {
   width: 100%;
   border-radius: 20px;
 }
-.card:hover{
+.card:hover {
   box-shadow: 4px 1px 15px -4px #667485;
-
 }
 .big_card {
   height: 600px;
@@ -478,7 +475,6 @@ ul li {
   }
 }
 
-
 @media screen and (max-width: 900px) {
   .filters_list {
     flex-wrap: wrap;
@@ -586,4 +582,3 @@ ul li {
     width: 100%;
   }
 }
-
