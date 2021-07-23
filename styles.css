@@ -9,15 +9,10 @@ body {
   font-family: "raleway", sans-serif;
   font-size: 16px;
 }
-main {
+main, header {
   margin: auto;
   width: 80%;
   max-width: 1400px;
-}
-header {
-  margin: auto;
-  width: 80%;
-  max-width: 1300px;
 }
 
 a {
