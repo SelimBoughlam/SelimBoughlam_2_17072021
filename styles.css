@@ -217,8 +217,12 @@ ul li {
   padding-top: 27px;
 }
 .section_footer {
-  font-size: 1.12em;
-  padding: 50px;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 30px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
 }
 
 .hotel_image {
@@ -450,9 +454,6 @@ ul li {
   .hotels_name {
     width: 250px;
   }
-}
-
-@media screen and (max-width: 1000px) {
   .popular_hotels {
     display: flex;
     flex-direction: column;
@@ -460,7 +461,11 @@ ul li {
   .popular_container {
     flex-direction: column;
   }
+  .popular_container {
+    width: 100%;
+  }
 }
+
 
 @media screen and (max-width: 900px) {
   .filters_list {
@@ -569,3 +574,4 @@ ul li {
     width: 100%;
   }
 }
+
