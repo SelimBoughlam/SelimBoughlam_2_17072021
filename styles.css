@@ -519,6 +519,7 @@ ul li {
     border-radius: 10px;
     background-color: #0065fc;
     border: none;
+    cursor: pointer;
   }
   .fa-search {
     color: white;
