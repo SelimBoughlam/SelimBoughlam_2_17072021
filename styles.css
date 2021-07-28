@@ -9,7 +9,8 @@ body {
   font-family: "raleway", sans-serif;
   font-size: 1em;
 }
-main, header {
+main,
+header {
   margin: auto;
   width: 80%;
   max-width: 1400px;
@@ -478,10 +479,10 @@ ul li {
 }
 
 @media screen and (max-width: 700px) {
-  header{
+  header {
     width: 100%;
   }
-  
+
   .navbar {
     flex-direction: column;
     justify-content: unset;
@@ -491,33 +492,29 @@ ul li {
     justify-content: space-around;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    
   }
-  .housing{
+  .housing {
     font-weight: 600;
   }
-  .border_bot{
+  .border_bot {
     display: flex;
     margin-bottom: 30px;
   }
-  .border_left{
+  .border_left {
     width: 50%;
     border-bottom: 3px solid #0065fc;
   }
-  .border_right{
+  .border_right {
     width: 50%;
     border-bottom: 3px solid #f2f2f2;
   }
-  
-  
+
   .nav_links a {
     font-size: 1.2em;
-    padding:10px 0;
-    
+    padding: 10px 0;
   }
- 
-  
-  .to_hide{
+
+  .to_hide {
     display: none;
   }
   .hidden {
@@ -526,19 +523,20 @@ ul li {
   .logo_box {
     display: flex;
     justify-content: space-between;
-    margin:30px;
+    margin: 30px;
   }
-  
+
   .active:hover {
     border-top: none;
-    
   }
-  .header_title, .header_description, .search_bar, .filters, .fa-info{
-    
-    margin:20px 20px;
+  .header_title,
+  .header_description,
+  .search_bar,
+  .filters,
+  .fa-info {
+    margin: 20px 20px;
   }
 }
-
 
 @media screen and (max-width: 650px) {
   .input_text {
