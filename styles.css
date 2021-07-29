@@ -575,6 +575,7 @@ ul li {
   }
   .popular_hotels {
     width: 100%;
+    height: 650px;
   }
   .popular_container {
     padding: 0;
