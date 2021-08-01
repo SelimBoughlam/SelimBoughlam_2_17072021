@@ -52,10 +52,11 @@ ul li {
 .nav_links a {
   padding: 18px 40px;
   font-size: 1em;
-  font-weight: 500;
 }
+
 .housing {
   color: #0065fc;
+  font-weight: 500;
 }
 .active:hover {
   border-top: 3px solid #0065fc;
