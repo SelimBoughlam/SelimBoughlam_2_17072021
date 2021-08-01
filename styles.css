@@ -307,7 +307,7 @@ ul li {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100px 80px 160px 37px 143px;
+  grid-template-rows: auto;
   grid-template-areas:
     "image1 image2 image3 image4"
     "image1 image2 image3 image4"
