@@ -103,7 +103,7 @@ ul li {
   padding: 10px 16px;
   border: none;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .hidden_btn {
   display: none;
