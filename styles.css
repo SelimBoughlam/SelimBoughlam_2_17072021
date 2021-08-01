@@ -486,9 +486,18 @@ ul li {
     align-items: unset;
   }
   .nav_links {
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-bottom: 10px;
     padding-bottom: 10px;
+  }
+  .nav_links li {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #f2f2f2;
+  }
+  .nav_links li:hover {
+    border-bottom: 3px solid #0065fc;
   }
   .housing {
     font-weight: 600;
@@ -496,15 +505,6 @@ ul li {
   .border_bot {
     display: flex;
     margin-bottom: 30px;
-  }
-  .border_left {
-    width: 50%;
-    border-bottom: 3px solid #0065fc;
-  }
-
-  .border_right {
-    width: 50%;
-    border-bottom: 3px solid #f2f2f2;
   }
 
   .nav_links a {
