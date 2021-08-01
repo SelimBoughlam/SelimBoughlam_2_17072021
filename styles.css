@@ -81,7 +81,6 @@ ul li {
   margin: 20px 0 10px 0;
 }
 
-
 /* Searchbox */
 
 .search_bar {
@@ -193,7 +192,7 @@ ul li {
   margin-top: 30px;
   padding: 6px;
 }
-.hotels_name:hover{
+.hotels_name:hover {
   transform: scale(1.01);
 }
 
@@ -217,7 +216,7 @@ ul li {
   padding-top: 20px;
 }
 .section_footer {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 600;
   padding: 10px;
   margin: 30px;
@@ -283,10 +282,9 @@ ul li {
   padding: 3px;
   border-radius: 15px 15px 15px 15px;
 }
-.popular:hover{
+.popular:hover {
   transform: scale(1.01);
 }
-
 
 .popular_container {
   display: flex;
@@ -327,13 +325,10 @@ ul li {
   box-shadow: -1px 1px 3px 1px rgb(50 50 50 / 10%);
   width: 100%;
   border-radius: 20px;
-  
 }
-.card:hover{
+.card:hover {
   transform: scale(1.01);
 }
-
-  
 
 .big_card {
   height: 600px;
