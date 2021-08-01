@@ -571,6 +571,7 @@ ul li {
   .popular_hotels {
     width: 100%;
     height: 650px;
+    border-radius: 0px;
   }
   .popular_container {
     padding: 0;
@@ -584,6 +585,9 @@ ul li {
   }
   .locals_hotels {
     background-color: #fff;
+  }
+  .header_popular {
+    justify-content: space-between;
   }
 
   .hotels_list {
