@@ -67,13 +67,6 @@ ul li {
 .register_hidden {
   display: none;
 }
-.register:hover {
-  padding: 18px 40px;
-  background-color: #0065fc;
-  border-radius: 35px;
-  color: white;
-  transition: 0.2s;
-}
 
 /* Header=====> Titles */
 
@@ -521,6 +514,7 @@ ul li {
   }
   .hidden {
     display: block;
+    cursor: pointer;
   }
   .logo_box {
     display: flex;
