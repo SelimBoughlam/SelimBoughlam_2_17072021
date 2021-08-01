@@ -538,6 +538,9 @@ ul li {
   .fa-info {
     margin: 20px 20px;
   }
+  .header_title {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (max-width: 650px) {
