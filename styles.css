@@ -354,6 +354,7 @@ ul li {
   align-items: center;
   height: 30px;
   padding-left: 10px;
+  margin-top: 10px;
   font-weight: bold;
 }
 .big-card-1 {
@@ -500,7 +501,7 @@ ul li {
     border-bottom: 3px solid #0065fc;
   }
   .housing {
-    font-weight: 600;
+    font-weight: 500;
   }
   .border_bot {
     display: flex;
