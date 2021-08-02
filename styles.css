@@ -47,6 +47,7 @@ ul li {
 
 .nav_links {
   display: flex;
+  align-items: center;
 }
 
 .nav_links a {
@@ -64,9 +65,6 @@ ul li {
 .register {
   color: #0065fc;
   font-weight: bold;
-}
-.register_hidden {
-  display: none;
 }
 
 /* Header=====> Titles */
@@ -503,6 +501,12 @@ ul li {
   .housing {
     font-weight: 500;
   }
+  .register {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
+
   .border_bot {
     display: flex;
     margin-bottom: 30px;
@@ -513,13 +517,6 @@ ul li {
     padding: 10px 0;
   }
 
-  .to_hide {
-    display: none;
-  }
-  .hidden {
-    display: block;
-    cursor: pointer;
-  }
   .logo_box {
     display: flex;
     justify-content: space-between;
@@ -549,7 +546,9 @@ ul li {
     display: none;
   }
   .hidden_btn {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     border-radius: 10px;
     background-color: #0065fc;
